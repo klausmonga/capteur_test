@@ -12,5 +12,5 @@ def Onstart():
         time.sleep(1)
         random.random()
         b = random.randint(0, 50)
-        os.system("/usr/bin/mosquitto_pub -h 127.0.0.1 -t ch1/temp -m klaus" + str(b))
+        os.system("/usr/bin/mosquitto_pub -h 127.0.0.1 -t ch1/temp -m VV==>5  " + str(b))
 
